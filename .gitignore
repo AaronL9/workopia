@@ -1,0 +1,6 @@
+/vendor
+/node_modules
+/config/db.ph
+.env
+.vscode
+.DS_Store
