@@ -2,6 +2,7 @@
 
 /**
  * Get the base path
+ *
  * @param string $path
  * @return string
  */
@@ -10,12 +11,11 @@ function basePath($path = '')
   return __DIR__ . '/' . $path;
 }
 
-
 /**
  * Load a view
+ *
  * @param string $name
  * @return void
- *
  */
 function loadView($name)
 {
@@ -31,9 +31,9 @@ function loadView($name)
 
 /**
  * Load a partial
+ *
  * @param string $name
  * @return void
- *
  */
 function loadPartial($name)
 {
@@ -63,7 +63,7 @@ function inspect($value)
 
 /**
  * Inspect a value(s) and die
- * 
+ *
  * @param mixed $value
  * @return void
  */
