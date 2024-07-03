@@ -1,0 +1,17 @@
+{
+  "name": "lomibao/workopia",
+  "description": "Job Listing Application",
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Aaron Lomibao",
+      "email": "aaron.lomibao09@gmail.com"
+    }
+  ],
+  "require": {}
+}
